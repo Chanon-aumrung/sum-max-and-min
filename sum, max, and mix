@@ -1,0 +1,17 @@
+score = [1,2,3,4,5]
+sum = 0
+for num in score:
+    sum = sum+num
+print("sum_score ", sum )
+
+lowest = None
+for i in score:
+    if lowest is None or i < lowest :
+        lowest = i
+print('min_score:', lowest)
+
+largest = None
+for itervar in score:
+    if largest is None or itervar > largest :
+        largest = itervar
+print('max_score:', largest)
